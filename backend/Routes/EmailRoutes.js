@@ -5,7 +5,8 @@ const router = express.Router();
 
 router.post('/send-confirmation-email', sendConfirmationEmail);
 router.post('/send-low-inventory-alert', sendLowInventoryAlert);
-router.post('/send-inquiry-email', sendInquiryEmail);
+router.post('/send-inquiry-email', sendInquiryEmail) ;
 router.post('/send-feedback-email', sendFeedbackEmail);
 
 export default router;
+
